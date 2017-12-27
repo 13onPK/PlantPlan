@@ -1,0 +1,26 @@
+﻿.bodyLogin {
+    background: url('~/Images/backgroud_login.jpg') no-repeat center center fixed;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+    /*background-color: #808080;*/
+}
+
+.logo-Login {
+    margin-bottom: 20px;
+}
+
+.form-Login {
+    margin: 0 auto;
+    max-width: 450px;
+    padding: 50px 40px 50px 40px;
+    background-color: #FFF;
+    position: relative;
+    top: 50px;
+    box-shadow: 2px 2px 20px #444;
+    z-index: 2;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}

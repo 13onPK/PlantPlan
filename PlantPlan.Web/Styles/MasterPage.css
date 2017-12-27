@@ -1,0 +1,995 @@
+﻿*{ margin: 0; padding: 0; outline: 0; }
+
+
+body 
+{
+    font-size: 12px;
+    line-height: 19px;
+    font-family: arial, sans-serif;
+    color: #999ea2;
+    background-color:Black;
+}
+
+a  
+{
+    color: #47a1c4; 
+    text-decoration: none; 
+    cursor: pointer; 
+}
+
+a:hover  
+{
+    text-decoration: underline; 
+}
+
+a img  
+{
+    border: 0; 
+}
+
+
+
+article, aside, details, footer, header, nav, section { display: block; }
+input, textarea, select { font-size: 12px; font-family: arial, sans-serif; }
+textarea { overflow: auto; }
+
+.cl 
+{ 
+	display: block; 
+	height: 0; 
+	font-size: 0; 
+	line-height: 0; 
+	text-indent: -4000px; 
+	clear: both;
+}
+.notext { font-size: 0; line-height: 0; text-indent: -4000px; }
+.left, .alignleft { float: left; display: inline; }
+.right, .alignright { float: right; display: inline; }
+
+.textinput {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: normal;
+	/*font-variant: 1px;*/
+	text-transform: capitalize;
+	color:#6a6d6f;
+	text-decoration: none;
+	text-align: left;
+	text-indent: 1pt;
+	white-space: normal;
+}
+.text-lable{
+     FONT-SIZE: 12px;
+	font-weight: normal;
+	color: #2E2F2F;
+	FONT-FAMILY: "MS Sans Serif", "AngsanaUPC ", Tahoma , Thonburi;
+	text-align: left;
+	}
+.text-label-blue {
+	font-family: "Tahoma";
+	font-size: 11px;
+	font-weight: normal;
+	text-decoration: none;
+	color:#3555a0;
+}
+.textmenu {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: bold; 
+	font-variant: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+	}
+.textbutton-window {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight:normal; 
+	font-variant:small-caps;
+	text-transform: capitalize;
+	color:#666666;
+	text-decoration: none;
+	text-align: inherit;
+	white-space:pre;
+	text-align:center;
+}
+
+.textfooter {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-style:normal;
+	line-height:15px;
+	font-weight: bold; 
+	font-variant: normal;
+	text-transform: capitalize;
+	color: Gray;
+	text-decoration: none;
+	text-align:left;
+	text-indent: 1pt;
+	white-space: normal ;
+}
+
+.textfooter2 {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-style:normal;
+	line-height:15px;
+	font-weight: bold; 
+	font-variant: normal;
+	text-transform: capitalize;
+	color: #dcdcdc;
+	text-decoration: none;
+	text-indent: 1pt;
+	white-space: normal ;
+}
+
+.textfooter3 {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-style:normal;
+	line-height:15px;
+	font-weight: normal; 
+	font-variant: normal;
+	text-transform: capitalize;
+	color: #dcdcdc;
+	text-decoration: none;
+	text-indent: 1pt;
+	white-space: normal ;
+}
+
+.textfooter4 {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-style:normal;
+	line-height:15px;
+	font-weight: normal; 
+	font-variant: normal;
+	text-transform: capitalize;
+	color: Gray;
+	text-decoration: none;
+	text-align:left;
+	text-indent: 1pt;
+	white-space: normal ;
+}
+
+.TextHeader
+{
+	font-family: "Tahoma";
+	font-size: 11px;
+	font-weight: bold;
+	color: Green;
+	text-decoration: none;
+}
+
+.TextDetail
+{
+	font-family: "Tahoma";
+	font-size: 11px;
+	font-weight: normal;
+	color: black;
+	text-decoration: none;
+}
+
+.TextLeftMenu
+{
+	font-family: "Tahoma";
+	font-size: 11px;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+}
+
+.Test
+{
+	font-family: "Arial";
+	font-size: 12px;
+	font-weight: normal;
+	color: #FF6600;
+	text-decoration: none;
+}
+
+.TextInfoSR
+{
+	font-family: "Tahoma";
+	font-size: 11px;
+	font-weight: bold;
+	color: Gray;
+	text-decoration: none;
+}
+
+.TextShowInfoSR
+{
+	font-family: "Tahoma";
+	font-size: 11px;
+	font-weight: normal;
+	color: Gray;
+	text-decoration: none;
+}
+
+.TextCriticalInfo
+{
+	font-family: "Tahoma";
+	font-size: 13px;
+	font-weight: bold;
+	color: Red;
+	text-decoration: none;
+}
+
+.TextAlert
+{
+	font-family: "Tahoma";
+	font-size: 11px;
+	font-weight: normal;
+	color: Red;
+	text-decoration: none;
+}
+
+
+/********** Button Related Styles **********/
+input[type="submit"]
+{
+    padding: 3px 5px;
+    margin-left: 5px;
+    width: auto;
+    text-align: center;
+}
+
+
+/********** Grid Related Styles **********/
+.GridStyle
+{
+	background-color: #F1F1F1;
+	color: #202020;
+	border-color: #FFFFFF;
+	font-family: MS Sans Serif, AngsanaUPC, Tahoma, Thonburi;	
+	font-size: 11px;
+	font-weight: normal;
+}
+.GridPage 
+{
+	background-color: #F1F1F1;
+	color: #202020;
+	border-color: #FFFFFF;
+	font-family: MS Sans Serif, AngsanaUPC, Tahoma, Thonburi;	
+	font-size: 11px;
+	font-weight: normal;	
+}
+.GridPage  a:link 
+{
+	background-color: #55b600; 
+	color: #000000;
+	font-family: MS Sans Serif, AngsanaUPC, Tahoma, Thonburi;	
+	font-size: 11px;
+	font-weight: normal;
+}
+.GridPage a:visited  
+{
+	background-color: #55b600; 	
+	color: #000000;
+	font-family: MS Sans Serif, AngsanaUPC, Tahoma, Thonburi;	
+	font-size: 11px;
+	font-weight: normal;	
+}
+.GridPage a:hover  
+{
+	background-color: #55b600; 	
+	color: #000000;
+	font-family: MS Sans Serif, AngsanaUPC, Tahoma, Thonburi;	
+	font-size: 11px;
+	font-weight: normal;
+}
+.GridPageText
+{
+	background-color: #E6E8E2;
+	border-color: #E6E8E2;
+	border-style: none;
+	color: #277B48;
+	font-family: MS Sans Serif, AngsanaUPC, Tahoma, Thonburi;	
+	font-size: 11px;
+	font-weight: normal;
+}
+
+.GridPageTextMark
+{
+	color: #E7F1D9;
+	font-family: MS Sans Serif, AngsanaUPC, Tahoma, Thonburi;	
+	font-size: 11px;
+	font-weight:  bold;
+}
+
+.GridPageNumber {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight:  bold;
+	/*font-variant: 1px;
+	text-transform: capitalize;*/
+	color:Green;
+	text-decoration: none;
+	text-align: left;
+	text-indent: 1pt;
+	white-space: normal;
+	}
+
+.GridPageNumber  a:link {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: bold;
+	/*font-variant: 1px;
+	text-transform: capitalize;*/
+	color:Green;
+	text-decoration: none;
+	text-align: left;
+	text-indent: 1pt;
+	white-space: normal;
+	}
+
+.GridPageNumber a:visited  {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: bold;
+	/*font-variant: 1px;
+	text-transform: capitalize;*/
+	color:Green;
+	text-decoration: none;
+	text-align: left;
+	text-indent: 1pt;
+	white-space: normal;
+	}
+
+.GridPageNumber a:hover  {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: bold;
+	/*font-variant: 1px;
+	text-transform: capitalize;*/
+	color:Green;
+	text-decoration: underline;
+	text-align: left;
+	text-indent: 1pt;
+	white-space: normal;
+	}
+.GridSelectedRow {
+}
+.GridEditRow
+{
+	background-color: #FFFFFF; 	
+	color: #2E2F2F;
+	font-family: MS Sans Serif, AngsanaUPC, Tahoma, Thonburi;	
+	font-size: 11px;
+	font-weight: normal;
+	}
+.GridAlterItem
+{
+	background-color: #e8f7d4;
+	color: #2E2F2F;
+	font-family: MS Sans Serif, AngsanaUPC, Tahoma, Thonburi;
+	font-size: 11px;
+	font-weight: normal;
+}
+.GridItem 
+{
+	background-color: #FFFFFF; 	
+	color: #2E2F2F;
+	font-family: MS Sans Serif, AngsanaUPC, Tahoma, Thonburi;	
+	font-size: 11px;
+	font-weight: normal;		
+}
+.GridHeader
+{
+	background-color: #77D774;
+	color: #333333;
+	height:25px;
+	font-family: MS Sans Serif, AngsanaUPC, Tahoma, Thonburi;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.GridHeader a:link 
+{
+	background-color: #77D774;
+	color: #333333;
+	height:25px;
+	font-family: MS Sans Serif, AngsanaUPC, Tahoma, Thonburi;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.GridHeader a:visited 
+{
+	background-color: #77D774;
+	color: #ffffff;
+	height:25px;
+	font-family: MS Sans Serif, AngsanaUPC, Tahoma, Thonburi;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 5px;	
+}
+.GridHeader a:hover 
+{
+	background-color: #77D774;
+	color: #ffffff;
+	height:25px;
+	font-family: MS Sans Serif, AngsanaUPC, Tahoma, Thonburi;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 5px;		
+}
+.GridHeadTotalRecord 
+{
+	/*background-image: url(/images/tab-acm_1.gif);*/
+}
+.Grid_Label_Red
+{
+	color: Red;
+	font-family: MS Sans Serif, AngsanaUPC, Tahoma, Thonburi;	
+	font-size: 11px;
+	font-style: normal;	
+	font-variant: normal;
+	font-weight: bold;			
+	text-decoration: none;			
+	white-space: normal ;	
+}
+.Grid_Label
+{
+	font-family: MS Sans Serif, AngsanaUPC, Tahoma, Thonburi;	
+	font-size: 11px;
+	font-style: normal;	
+	font-variant: normal;
+	font-weight: normal;			
+	text-decoration: none;			
+	white-space: normal ;	
+}
+.GridEmptyData
+{
+	background-color: #55b600;
+	color: #FFFFFF;
+	font-family: MS Sans Serif, AngsanaUPC, Tahoma, Thonburi;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.GridRow0
+{
+	background-color: #F1F1F1;
+	color: #202020;
+	border-color: #FFFFFF;
+	font-family: MS Sans Serif, AngsanaUPC, Tahoma, Thonburi;
+	font-size: 10px;
+	font-weight: normal;
+}
+
+.GridRow1
+{
+	background-color: #FFFFFF;
+	color: #202020;
+	border-color: #FFFFFF;
+	font-family: MS Sans Serif, AngsanaUPC, Tahoma, Thonburi;
+	font-size: 10px;
+	font-weight: normal;
+}
+.GridPager a:visited  
+{
+	background-color: #03757d; 	
+	color: #BAB9B9;
+	font-family: MS Sans Serif, AngsanaUPC, Tahoma, Thonburi;	
+	font-size: 10px;
+	font-weight: normal;	
+	font-weight: bold;
+}
+.GridPager a:hover  
+{
+	background-color: #03757d; 	
+	color: #FFFFFF;
+	font-family: MS Sans Serif, AngsanaUPC, Tahoma, Thonburi;	
+	font-size: 10px;
+	font-weight: bold;
+}
+.GridPager
+{
+	background-color: #03757d;
+	color: #FFFFFF;
+	font-family: MS Sans Serif, AngsanaUPC, Tahoma, Thonburi;
+	font-size: 10px;
+	font-weight: bold;
+}
+.GridPager a:link
+{
+	background-color: #03757d;
+	color: #BAB9B9;
+	font-family: MS Sans Serif, AngsanaUPC, Tahoma, Thonburi;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+.cssform p{
+width: 500px;
+clear: left;
+margin: 0;
+padding: 5px 0 8px 0;
+padding-left : 155px; /*width of left column containing the label elements*/
+border-top : 1px dashed gray;
+height : 1%;
+}
+
+.cssform label{
+font-family: Tahoma;
+font-weight: bold;
+float: left;
+margin-left: -155px; /*width of left column*/
+width: 150px; /*width of labels. Should be smaller than left column (155px) to create some right margin*/
+}
+
+.cssform input[type="text"]{ /*width of text boxes. IE6 does not understand this attribute*/
+width: 180px;
+}
+
+.cssform textarea{
+width: 250px;
+height : 150px;
+}
+
+/*.threepxfix class below:
+Targets IE6- ONLY. Adds 3 pixel indent for multi-line form contents.
+to account for 3 pixel bug: http://www.positioniseverything.net/explorer/threepxtest.html
+*/
+
+* html .threepxfix{
+margin-left: 3px;
+}
+
+
+
+a.squarebutton{
+/*background: transparent url('images/square-gray-left.gif') no-repeat top left;*/
+display: block;
+float: left;
+font: normal 11px Tahoma; /* Change 12px as desired */
+color:#666666;
+line-height: 15px; /* This value + 4px + 4px (top and bottom padding of SPAN) must equal height of button background (default is 23px) */
+height: 24px; /* Height of button background height */
+padding-left: 9px; /* Width of left menu image */
+text-decoration: none;
+}
+
+a:link.squarebutton, a:visited.squarebutton, a:active.squarebutton{
+color: #494949; /*button text color*/
+}
+
+a.squarebutton span{
+/*background: transparent url('images/square-gray-right.gif') no-repeat top right;*/
+display: block;
+padding: 4px 9px 4px 0; /*Set 9px below to match value of 'padding-left' value above*/
+}
+
+a.squarebutton:hover{ /* Hover state CSS */
+background-position: bottom left;
+}
+
+a.squarebutton:hover span{ /* Hover state CSS */
+background-position: bottom right;
+color: black;
+}
+
+a.buttonwrapper{ /* Container you can use to surround a CSS button to clear float */
+overflow: hidden;
+width: 100%;
+}
+
+.LinkMenu
+{
+	cursor: pointer;
+    FONT-SIZE: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	FONT-FAMILY: "MS Sans Serif", "AngsanaUPC ", Tahoma , Thonburi;
+	text-align: left;
+	TEXT-DECORATION: none;
+	vertical-align:top;
+	
+}
+
+
+
+/********** Menu Related Styles **********/
+.DynamicMenuItemSR
+{
+	border-left-color:#045FB4;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-right-color:#045FB4;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-bottom-color:#045FB4;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-top-color:#045FB4;
+	border-top-style:solid;
+	border-top-width:1px;
+	
+	background-color: #FFFFFF;
+	color:  #045FB4;
+	cursor: pointer;
+	font-family: MS Sans Serif, AngsanaUPC, Tahoma, Thonburi;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 24px;
+	text-decoration: none;
+	text-align: left;
+	text-indent: 1pt;
+	text-transform: capitalize;
+	white-space:nowrap;
+}
+.DynamicHoverSR
+{
+	border-left-color:#045FB4;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-right-color:#045FB4;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-bottom-color:#045FB4;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-top-color:#045FB4;
+	border-top-style:solid;
+	border-top-width:1px;
+	background-color: #CEF6F5;
+	color: #045FB4;
+	cursor: pointer;
+	font-family: MS Sans Serif, AngsanaUPC, Tahoma, Thonburi;	
+	font-size: 11px;
+	font-style: normal;	
+	font-variant: normal;
+	font-weight: normal;			
+	line-height:24px;
+	text-decoration: none;			
+	text-align: left;
+	text-indent: 1pt;
+	text-transform: capitalize;
+	white-space: normal;
+	white-space:nowrap;	
+}
+.StaticMenuItemSR 
+{	
+	cursor: pointer;
+	color: #045FB4;
+	font-family: MS Sans Serif, AngsanaUPC, Tahoma, Thonburi;	
+	font-size: 14px;
+	font-style: normal;	
+	font-variant: normal;
+	font-weight: bold;			
+	line-height:25px;
+	text-align: left;
+	margin-top: 8px;
+}
+.StaticHoverSR 
+{
+	cursor: pointer;
+	color: #0174DF;
+	font-family: MS Sans Serif, AngsanaUPC, Tahoma, Thonburi;	
+	font-size: 14px;
+	font-style: normal;	
+	font-variant: normal;
+	font-weight: bold;			
+	line-height:20px;
+	text-align: left;	
+}
+
+
+       
+.ButtonStyle:hover
+{
+    border-color: #726E96;
+    color: #636363;
+    cursor: pointer;
+}
+
+
+/* Popup Control */
+.modalBackground
+ 
+{
+    background-color:ActiveBorder;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+}
+ 
+ 
+.modalPopup
+{
+    background-color:transparent;
+    border-style:none;
+    padding:5px;
+}
+
+
+
+/* Popup Page */
+.PopupBody
+{
+    background-color:transparent;
+}
+
+
+.PopupMainDiv
+{
+    border: thin solid #C6C3DE;
+    background-color: White;
+    margin-left: 2px;
+    width: auto;
+    height: auto;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+
+
+/* custom Style - Round border */
+.RoundBorder
+{
+    border: thin solid #C6C3DE;
+    background-color: White;
+    margin-left: 2px;
+    width: auto;
+    height: auto;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.TextHeader
+{
+	font-family: "Tahoma";
+	font-size: 11px;
+	font-weight: bold;
+	color: Green;
+	text-decoration: none;
+}
+
+.TextDetail
+{
+	font-family: "Tahoma";
+	font-size: 11px;
+	font-weight: normal;
+	color: black;
+	text-decoration: none;
+}
+
+.news-head
+{
+    float:left;
+    width:100%;
+    height:58px;
+    background-image:url(~/Images/news_Head.png);
+}
+
+.imgContent
+{
+    width:350px;
+    height:154px;
+    background-image:url(~/Images/MIX-PRODUCT02.jpg);
+    margin: 0 auto;
+}
+
+/* Tabs */
+
+.Setting-icon { background: url(~/Images/Setting-icon.png) no-repeat; height: 32px; width: 32px; }
+.News-icon { background: url(~/Images/news.png) no-repeat; height: 32px; width: 32px; }
+
+
+.style-tabs {
+    background: none;
+    width: 100%;
+}
+.style-tabs,
+.style-tabs .ui-tabs-nav li a,
+.style-tabs .ui-tabs-nav {
+    padding: 0;
+}
+.style-tabs .ui-tabs-panel {
+    padding: 5px;
+}
+.style-tabs .ui-widget-header {
+    border: none;
+    background: url(~/Images/TabMenu.png) repeat;
+    height: 74px;
+    width: 100%;
+}
+.style-tabs .ui-corner-all {
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
+.style-tabs .ui-tabs-nav li {
+    position: relative;
+    height: 100%;
+    cursor: pointer;
+    margin: 0;
+    top: 0;
+}
+.style-tabs .ui-widget-header .ui-state-default {
+    background: none;
+    border: none;
+}
+.style-tabs .ui-tabs-nav li.ui-tabs-active,
+.style-tabs .ui-tabs-nav li:hover {
+    background: url(~/Images/SelectedMiddle.png) repeat;
+}
+.style-tabs .ui-tabs-nav li .icon {
+    color: #787878;
+    background-position: center 3px;
+    padding-top: 40px;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    width: 80px;
+}
+.style-tabs .ui-tabs-nav li.ui-tabs-active .icon,
+.style-tabs .ui-tabs-nav li:hover .icon {
+    color: #414141;
+}
+.style-tabs .ui-tabs-nav li.ui-tabs-active .icon:before,
+.style-tabs .ui-tabs-nav li:hover .icon:before {
+    content: url(~/Images/SelectedSides.png);
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.style-tabs .ui-tabs-nav li.ui-tabs-active .icon:after,
+.style-tabs .ui-tabs-nav li:hover .icon:after {
+    content: url(~/Images/SelectedSides.png);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.style-tabs .ui-tabs-nav li a {
+    outline: none;
+}
+.style-tabs .ui-tabs-nav li.ui-tabs-active a {
+    cursor: pointer;
+}
+
+#containerAll
+{
+   float:left;
+    margin-top:0px;
+    width:100%;
+    height:auto;
+    background-color:#084B8A;
+}
+
+
+#container
+{  
+    width:990px;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+.head
+{
+    float:left;
+    width:990px;
+    height:auto;
+    margin-top:0px;
+}
+
+.headTop
+{
+    float:left;
+    width:990px;
+    height:80px;
+    margin-top:0px;
+    background-image:url(~/Images/Head_Top.png);
+}
+
+#time
+{
+    float:right;
+    width:280px;
+    height:20px;
+    margin-right:5px;
+    margin-top:52px;
+}
+
+.headMenu
+{
+    float:left;
+    width:990px;
+    height:123px;
+    margin-top:0px;
+    background-image:url(~/Images/Head_Menu.png);
+}
+
+.Menu
+{   
+    float:right;
+    width:auto;
+    height:auto;
+    margin-right:10px;
+    margin-top:68px;
+}
+
+.contentAll
+{
+    float:left;
+    width:990px;
+    height:auto;
+    margin-top:0px;
+    background-color:white;
+    
+}
+
+.contentLeft
+{
+    float:left;
+    width:19%;
+    height:auto;
+    margin-top:5px;
+    margin-left:5px;
+    margin-bottom:5px;
+}
+
+.contentRight
+{
+    float:right;
+    width:78%;
+    height:auto;
+    margin-top:5px;
+    margin-right:5px;
+    margin-bottom:5px;
+}
+
+.footer
+{
+    float:left;
+    width:990px;
+    height:60px;
+    margin-top:0px;
+    background-image:url(~/Images/Footer.png);
+}
+    

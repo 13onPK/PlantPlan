@@ -1,0 +1,183 @@
+﻿
+.bt-main-nav {
+    /*background-color: #cc0000;*/
+    background-color: #2B547E;
+    /*height: 25px;*/
+    box-shadow: 0px 0.5px 2px;
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+    .collapse {
+        display: none !important;
+    }
+}
+
+.menu-masterPage {
+    position: fixed;
+    z-index: 9;
+    width: 100%;
+    box-shadow: 0px 0.5px 2px #dedede;
+}
+
+.footer-masterPage {
+    bottom: 0;
+    height: 25px;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    font-size: 11px;
+    padding: 5px 0 5px 0;
+    color: #fff;
+    background-color: #2B547E;
+    /*opacity: 0.5;*/
+    margin-top: 40px;
+    z-index: 1;
+}
+
+.head-main-lbl {
+    margin: 0 0 20px 0;
+    padding: 10px 0 5px 15px;
+    font-size: 24px;
+    border-bottom: 1px solid #ccc;
+}
+
+/*.footerDefaultpage {
+    bottom: 0;
+    height: 25px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 11px;
+    padding: 5px 0 5px 0;
+    color: #fff;
+    background-color: #000;
+    opacity: 0.5;
+    margin-top: 40px;
+    z-index: 1;
+}
+
+.MainMenuDefaultpage {
+    margin: auto;
+    max-width: 955px;
+    margin-top: 40px;
+}*/
+
+/*.normal-lbl {
+    width: 120px !important;
+    text-align: right !important;
+}
+
+.normal-lbl-l {
+    width: 190px !important;
+    text-align: right !important;
+}
+
+.normal-lbl-s {
+    width: 70px !important;
+    text-align: right !important;
+}
+
+.normal-lbl-xs {
+    width: 40px !important;
+    text-align: right !important;
+}
+
+.normal-lbl-xs-f {
+    width: 40px !important;
+    text-align: right !important;
+}
+
+@media (max-width: 770px) {
+    .normal-lbl-s {
+        width: 120px !important;
+        text-align: left !important;
+    }
+
+    .normal-lbl-xs {
+        width: 120px !important;
+        text-align: left !important;
+    }
+}*/
+
+.normal-radtext {
+    padding-top: 4px;
+}
+
+.normal-radtext-l {
+    margin-bottom: 6px;
+}
+
+.after-text {
+    padding-left: 10px;
+}
+
+.normal-btn {
+    margin: 0 5px 0 5px;
+}
+
+.head-main-lbl {
+    background-color: #2b373d;
+    margin: 15px 0 10px 0;
+    padding: 5px 0 5px 15px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+body.noscroll {
+    position: fixed;
+    overflow: scroll;
+    width: 100%;
+}
+
+.lblRequire {
+    color: red;
+}
+
+.styleCenter {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+div.styleEditablePanel div {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.styleEditablePanel {
+    text-align: Left;
+}
+
+.styleFormatControl {
+    margin-top: 10px;
+}
+
+.styleLabel {
+    text-align: right;
+}
+
+@media (max-width: 1000px) {
+    .styleLabel {
+        text-align: right;
+    }
+}
+
+.styleLeft {
+    text-align: left;
+}
+
+@media (max-width: 1000px) {
+    .styleLeft {
+        text-align: left;
+    }
+}
+
+.AutoHeight {
+    height: auto !important;
+}
+
+.modalBackground {
+    background-color:gray;
+    filter:alpha(opacity=70);
+    opacity:0.7;
+}

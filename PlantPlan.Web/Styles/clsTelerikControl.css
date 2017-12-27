@@ -1,0 +1,12 @@
+﻿/*.rbSkinnedButton .rbDecorated {
+    border: 1px solid #178636 !important;
+    -webkit-border-top-left-radius: 15px !important;
+    -webkit-border-bottom-left-radius: 15px !important;
+    -webkit-border-bottom-right-radius: 15px !important;
+    border-radius: 15px 15px 15px 15px !important;
+    margin-left: -7px !important;
+}*/
+
+.MyGridClass .rgDataDiv {
+    height: auto !important;
+}
